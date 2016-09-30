@@ -2,7 +2,7 @@
 <addons>
 
 <addon id="plugin.video.edoctortv"
-       name="e-Doctor e-Modder TV"
+       name="e-Dm"
        version="2.6.6"
        provider-name="e-doctor">
   <requires>
@@ -32,13 +32,13 @@
 </addon>
 
 
-<addon id="repository.e-Dm" name="e-Dm Addon Repository" version="2.9" provider-name="e-doctor">
+<addon id="repository.e-Dm" name="e-Dm Addon Repository" version="2.9" provider-name="e-Dm">
 	<extension point="xbmc.addon.repository" name="e-Dm Addon Repository">
         
 
     <info compressed="false">https://github.com/hadjistyllis/kodi-repo/addons.xml</info>
 
-    <datadir zip="true">https://github.com/hadjistyllis/kodi-repo</datadir>
+    <datadir zip="true">https://github.com/hadjistyllis/kodi-repo/</datadir>
 
 	</extension>
 	<extension point="xbmc.addon.metadata">
