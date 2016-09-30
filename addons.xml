@@ -4,7 +4,7 @@
 <addon id="plugin.video.edoctortv"
        name="e-Dm"
        version="2.6.6"
-       provider-name="e-doctor">
+       provider-name="e-Dm">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -24,7 +24,7 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>e-dm tv</summary>
+    <summary>e-Dm tv</summary>
     <description>
             </description>
     <platform>all</platform>
@@ -47,5 +47,4 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-
 </addons>
