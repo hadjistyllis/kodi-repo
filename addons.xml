@@ -3,7 +3,7 @@
 
 <addon id="plugin.video.e-Dm"
        name="e-Dm"
-       version="2.6.6"
+       version="2.6.7"
        provider-name="e-Dm">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
