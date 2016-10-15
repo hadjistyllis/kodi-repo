@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-
 <addon id="plugin.video.e-Dm"
-       name="e-Dm"
-       version="2.6.7"
-       provider-name="e-Dm">
+       name="e-Doctor e-Modder TV"
+       version="2.7.0"
+       provider-name="e-Doctor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -16,19 +14,25 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" />    
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+  
+     <extension point="xbmc.addon.repository" name="e-Dm Repository">
+        <info compressed="false">https://goo.gl/2S4vfH</info>
+        <checksum>https://goo.gl/aDmq3w</checksum>
+        <datadir zip="true">https://github.com/hadjistyllis/kodi-repo/tree/master/plugin.video.e-Dm/</datadir>
+    </extension>
+
   <extension point="xbmc.addon.metadata">
-    <summary>e-Dm tv</summary>
+    <summary>Watch Premium TV Channels by e-Doctor e-Modder </summary>
     <description>
-            </description>
+        
+    </description>
     <platform>all</platform>
   </extension>
 </addon>
-
-</addons>
