@@ -23,7 +23,7 @@
 <checksum>
 https://goo.gl/aDmq3w
 </checksum>
-<datadir zip="true">https://raw.githubusercontent.com/hadjistyllis/kodi-repo/master/</datadir>
+<datadir zip="true">https://github.com/hadjistyllis/kodi-repo/</datadir>
 </extension>
 <extension point="xbmc.addon.metadata">
 <summary>
