@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
 <addon id="plugin.video.e-Dm"
        name="e-Doctor e-Modder TV"
        version="2.7.0"
@@ -36,3 +36,4 @@
     <platform>all</platform>
   </extension>
 </addon>
+</addons>
