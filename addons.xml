@@ -25,7 +25,7 @@
      <extension point="xbmc.addon.repository" name="e-Dm Repository">
         <info compressed="false">https://goo.gl/2S4vfH</info>
         <checksum>https://goo.gl/aDmq3w</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/hadjistyllis/kodi-repo/master/plugin.video.e-Dm/</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/hadjistyllis/kodi-repo/master/</datadir>
     </extension>
 
   <extension point="xbmc.addon.metadata">
