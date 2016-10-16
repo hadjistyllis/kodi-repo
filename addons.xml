@@ -1,4 +1,5 @@
 <addons>
+  
 <addon id="plugin.video.e-Dm" name="e-Doctor e-Modder TV" version="2.7.0" provider-name="e-Doctor">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
@@ -34,4 +35,33 @@ Watch Premium TV Channels by e-Doctor e-Modder
 <platform>all</platform>
 </extension>
 </addon>
+  
+ <addon id="plugin.video.Stallion-IPTV" name="Stallion-IPTV" version="3.2" provider-name="Stallion-IPTV">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.beautifulsoup" version="3.2.1"/>
+<import addon="script.module.simple.downloader" version="0.9.4"/>
+<import addon="script.module.beautifulsoup4"/>
+<import addon="script.module.requests"/>
+<import addon="script.module.httplib2"/>
+<import addon="script.module.youtube.dl" optional="true"/>
+<import addon="plugin.video.youtube" optional="true"/>
+<import addon="script.module.urlresolver" optional="true"/>
+<import addon="script.module.simplejson"/>
+<import addon="script.module.livestreamer" optional="true"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>
+[COLOR blue]Stallion[/COLOR][COLOR blue]IPTV[/COLOR]Base on LivetreamsPro by Shani mod by Wolf 
+</summary>
+<description lang="en">
+[COLOR blue][B]Stallion-IPTV, Enjoy the Best Free IPTV [/B][/COLOR]
+</description>
+<platform>all</platform>
+</extension>
+</addon>
+  
 </addons>
