@@ -36,7 +36,7 @@ Watch Premium TV Channels by e-Doctor e-Modder
 </extension>
 </addon>
   
- <addon id="plugin.video.Stallion-IPTV" name="Stallion-IPTV" version="3.2" provider-name="Stallion-IPTV">
+ <addon id="plugin.video.Stallion.IPTV" name="Stallion-IPTV" version="3.2" provider-name="Stallion-IPTV">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
 <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -54,6 +54,11 @@ Watch Premium TV Channels by e-Doctor e-Modder
 <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
+<info compressed="false">https://goo.gl/2S4vfH</info>
+<checksum>
+https://goo.gl/aDmq3w
+</checksum>
+<datadir zip="true">https://github.com/hadjistyllis/kodi-repo/</datadir>
 <summary>
 [COLOR blue]Stallion[/COLOR][COLOR blue]IPTV[/COLOR]Base on LivetreamsPro by Shani mod by Wolf 
 </summary>
