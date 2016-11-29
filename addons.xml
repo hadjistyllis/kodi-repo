@@ -21,12 +21,12 @@
 <datadir zip="true">https://github.com/hadjistyllis/kodi-repo/</datadir>
 </extension>
 <extension point="xbmc.addon.metadata">
- </extension>
 <summary>
 Watch Premium TV Channels by e-Doctor e-Modder 
 </summary>
 <description/>
 <platform>all</platform>
+   </extension>
 </addon>
   
  <addon id="plugin.video.Stallion-IPTV" name="Stallion-IPTV" version="3.2" provider-name="Stallion-IPTV">
